@@ -8,7 +8,9 @@ To install the mod, download the latest release [here](https://github.com/Vulcan
 In order for mod previews & descriptions to work in the mod manager each mod (.dll file) must be in it's own subfolder with an info.json following the same format included with this mod. A preview image must also be in the same subfolder to work, and must match the image name specified in the info.json.
 For convenience, it's recommended for all mod creators to upload their mods to github in a subfolder including an info.json (and preview image if you want your mod to stand out).
 
-Example info.json format:
+Example `info.json` format:
+
+```json
 {
   "id": "BoomerangFoo",
   "name": "Chaos Mod",
@@ -18,7 +20,7 @@ Example info.json format:
   "preview": "preview.png",
   "repository": "Jeffjewett27/BoomerangFoo"
 }
-
+```
 
 Planned future features: browsable online mod catalog where you can quick install mods and feature to auto check mods for newer releases & quick update them.
 
